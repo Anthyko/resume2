@@ -25,31 +25,37 @@
       { "language": "Anglais", "fluency": "Professionnel" }
     ]
   },
+  "volunteer":[],
+  "projects":[],
   "work": [
     {
       "name": "Squad",
       "position": "Consultant DevOps",
       "startDate": "2024",
-      "summary": [
+      "endDate":"",
+      "highlights": [],
+      "summary": 
         "<ul class=\"txt\">\n        <li>Aide à la décision sur des questionnements techniques.</li>\n        <li>Utilisation de design patterns pour produire du code clair, maintenable et adapté aux besoins métiers.</li>\n        <li>Automatisation des actions humaines.</li>\n        <li>Accompagnement d'ingénieurs moins expérimentés.</li>\n        <li>Rédaction des tests unitaires et fonctionnels.</li>\n        <li>Support pour les clients des produits développés.</li>\n      </ul>"
-      ]
+      
     },
     {
       "name": "IUT de Troyes",
       "position": "Enseignant vacataire",
       "startDate": "2023",
       "endDate": "2024",
-      "summary": [
-        "<ul class=\"txt\">\n        <li>\n          Animation d’un module en licence pro pour découvrir et apprendre à utiliser Symfony, en privilégiant une approche concrète.\n        </li>\n        <li>\n          Alternance entre apports théoriques (architecture MVC, routage, sécurité, gestion des bases de données) et beaucoup de pratique, en lien avec les attentes du métier.\n        </li>\n        <li>\n          Transmission d’une vision moderne du développement web, en partageant des retours d’expérience et des conseils applicables en entreprise.\n        </li>\n      </ul>"]
+      "highlights": [],
+      "summary": 
+        "<ul class=\"txt\">\n        <li>\n          Animation d’un module en licence pro pour découvrir et apprendre à utiliser Symfony, en privilégiant une approche concrète.\n        </li>\n        <li>\n          Alternance entre apports théoriques (architecture MVC, routage, sécurité, gestion des bases de données) et beaucoup de pratique, en lien avec les attentes du métier.\n        </li>\n        <li>\n          Transmission d’une vision moderne du développement web, en partageant des retours d’expérience et des conseils applicables en entreprise.\n        </li>\n      </ul>"
     },
     {
       "name": "Namkin",
       "position": "Lead Developer & DevOps",
       "startDate": "2017-09",
       "endDate": "2024",
-      "summary": [
+      "highlights": [],
+      "summary": 
            "<ul class=\"txt\">\n        <li>\n          <strong>Architecture & Infrastructure</strong>\n          <ul>\n            <li>Analyse des besoins, configuration de VPS et serveurs dédiés (OVH), rédaction de docs explicatifs pour les choix techniques.</li>\n            <li>Mise en place de mesures de sécurité (clé SSH, interdiction root, etc.).</li>\n            <li>Conception d’architectures serveur sur-mesure pour les clients.</li>\n          </ul>\n        </li>\n        <li>\n          <strong>Développement & Outils</strong>\n          <ul>\n            <li>Développement d’applications web métiers avec PHP (Symfony), Node.js, Docker, Apache/Nginx.</li>\n            <li>Création d’environnements virtualisés (Vagrant + Virtualbox) et introduction de Docker pour les devs Windows (pré-WSL).</li>\n            <li>Développement Python avancé pour des traitements techniques.</li>\n            <li>Intégration d’API externes REST/SOAP, notamment Salesforce et Zoho CRM.</li>\n            <li>Intégration de tests fonctionnels & smoke tests en CI.</li>\n          </ul>\n        </li>\n        <li>\n          <strong>DevOps & Cloud</strong>\n          <ul>\n            <li>Déploiement automatisé via Ansible/SSH, configuration de backups (Restic, S3).</li>\n            <li>Mise en place de CI/CD (GitHub Actions), continuous delivery & deployment.</li>\n            <li>Exploration et étude d’architectures cloud (Azure, AWS) pour clients.</li>\n            <li>Monitoring avec Promtail, Node Exporter, intégration de systèmes de queue (RabbitMQ).</li>\n          </ul>\n        </li>\n        <li>\n          <strong>Gestion d’équipe & Projet</strong>\n          <ul>\n            <li>Gestion d’équipe 4-5 personnes, organisation des sprints SCRUM.</li>\n            <li>Mentorat technique, mise en place de tests pour les juniors.</li>\n            <li>Gestion de la roadmap et des évolutions technologiques.</li>\n            <li>Collaboration avec des équipes de dev externes.</li>\n          </ul>\n        </li>\n        <li>\n          <strong>Relation client & Suivi</strong>\n          <ul>\n            <li>Recueil de besoins, rédaction de cahiers des charges, suivi post-livraison (maintenance évolutive et sécurité).</li>\n            <li>Proposition de solutions techniques et d’architectures personnalisées.</li>\n          </ul>\n        </li>\n        <li>\n          <strong>Optimisation, Intégration & Veille</strong>\n          <ul>\n            <li>Optimisation de la performance applicative (API, queues, microservices, réduction d’impact sur app monolithique).</li>\n            <li>Veille et mise en place de nouvelles technos selon les besoins clients (ex : WebRTC).</li>\n          </ul>\n        </li>\n      </ul>"
-      ]
+      
     }
   ],
   "education": [
