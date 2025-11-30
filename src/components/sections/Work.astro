@@ -20,9 +20,7 @@ const work = workData as Work[]
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`View ${name}`} target="_blank">
                         {name}
-                      </a>
                     </h3>
                     <h4>{position}</h4>
                   </div>
@@ -43,7 +41,7 @@ const work = workData as Work[]
                 </header>
 
                 <footer>
-                  <p>{summary}</p>
+          <div set:html={summary} />
                 </footer>
               </article>
             </li>
