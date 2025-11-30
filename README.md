@@ -16,10 +16,6 @@
     </a>
 </div>
 
-<p></p>
-
-<img src="astrolio-demo.png"></img>
-
 ## ℹ️ About This Project
 
 This website is a personal portfolio built using Astrolio, an open-source one-page resume/portfolio template designed with Astro.
@@ -28,7 +24,6 @@ The original template includes features such as:
 
 - JSON-based CV integration (JSON Resume schema)
 - Command Palette for quick navigation
-- Project, publication, and link shortcuts
 - Built-in PDF export
 
 I have adapted the template to fit my needs and personal style. You can learn more about the original project and its creator below.
@@ -59,6 +54,7 @@ Below is a list of the changes I made compared to the original template:
 - Changed wording to french
 - Added sitemap
 - Added some "og:" tags
+- Disabled the command palette
 ---
 
 ## 🔑 License
