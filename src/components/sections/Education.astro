@@ -6,13 +6,13 @@ import type { Education } from "@/data/cv"
 const education = educationData as Education[]
 ---
 
-<Section title="Education">
+<Section title="Diplômes">
   <ul>
     {
       education.map(({ institution, startDate, endDate, area, studyType }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Present"
+          endDate != null ? new Date(endDate).getFullYear() : "Maintenant"
         const years = `${startYear} - ${endYear}`
 
         return (
