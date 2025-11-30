@@ -6,7 +6,7 @@ import { portfolioIcons } from './utils/portfolio-icons.js';
 // https://astro.build/config
 export default defineConfig({
     //site: "https://anthonyhengy.fr",
-    site: "https://anthyko.github.io/resume2/",
+    site: "https://anthonyhengy.fr",
     integrations: [
         icon({
             include: portfolioIcons,
