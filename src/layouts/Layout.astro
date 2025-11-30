@@ -64,7 +64,6 @@ const { image, summary, url="" } = basicsData as Basics
   }
 
   ul {
-    list-style: none;
     margin: 0;
     padding: 0;
   }
@@ -94,14 +93,26 @@ const { image, summary, url="" } = basicsData as Basics
       sans-serif;
   }
 
-  p {
+  p ,html body main section ul li article footer ul.txt{
     color: #666;
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
     text-wrap: pretty;
   }
+  ul.txt{
+    list-style: square;
+    list-style-position: inside;
+  }
+  html body main section ul li article footer ul.txt li ul li {
 
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 20px;
+  }
+  html body main section ul{
+    list-style: none;
+  }
   .print {
     display: none !important;
   }
