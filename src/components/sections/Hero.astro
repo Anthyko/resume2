@@ -6,7 +6,7 @@ import { getIconName } from "@/data/profile-icons"
 import type { Basics } from "@/data/cv"
 
 const basics = basicsData as Basics
-const { name, label, image, profiles = [], phone, email } = basics;
+const { name, label, image, profiles = [], phone, email, languages } = basics;
 const city = basics.location?.city ?? "";
 const region = basics.location?.region ?? "";
 
@@ -25,7 +25,14 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
           <Icon name="globe" />
           {region ? `${city}, ${region}` : city}
         </span>
-      )}
+      )} 
+      <div id="languages">
+      {languages.map(({language,fluency}) => {
+        return (<span>
+        {language} ({fluency}) 
+        </span>)
+        })}
+      </div>  
       <footer class="print">
         {printInfo}
       </footer>
@@ -152,7 +159,14 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
     background: #eee;
     border: 1px solid #ddd;
   }
-
+  #languages {
+    display:flex;
+  }
+  #languages > *:not(:first-child)::before {
+    content: "•";
+    margin: 0 8px;
+    color: #888;
+}
   @media (width <= 700px) {
     .container {
       flex-direction: column-reverse;
@@ -178,5 +192,7 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
     figure {
       margin: 0 auto;
     }
+
+    
   }
 </style>

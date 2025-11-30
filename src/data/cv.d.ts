@@ -24,6 +24,7 @@ interface Basics {
   summary?: string;
   location?: Location;
   profiles?: Profiles[];
+  languages?: Languages[];
 }
 
 interface Location {
