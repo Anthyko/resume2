@@ -32,7 +32,7 @@
       "name": "Squad",
       "position": "Consultant DevOps",
       "startDate": "2024",
-      "endDate":"",
+      "endDate": null,
       "highlights": [],
       "summary": 
         "<ul class=\"txt\">\n        <li>Aide à la décision sur des questionnements techniques.</li>\n        <li>Utilisation de design patterns pour produire du code clair, maintenable et adapté aux besoins métiers.</li>\n        <li>Automatisation des actions humaines.</li>\n        <li>Accompagnement d'ingénieurs moins expérimentés.</li>\n        <li>Rédaction des tests unitaires et fonctionnels.</li>\n        <li>Support pour les clients des produits développés.</li>\n      </ul>"
