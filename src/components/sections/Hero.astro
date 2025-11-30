@@ -27,7 +27,7 @@ const printInfo = [email, phone, linkedinUrl].filter(Boolean).join(" • ")
         </span>
       )} 
       <div id="languages">
-      {languages.map(({language,fluency}) => {
+      {languages && languages.map(({language,fluency}) => {
         return (<span>
         {language} ({fluency}) 
         </span>)
