@@ -1,21 +1,3 @@
-<div align="center">
-    <a href="#-about-this-project">
-        ℹ️ About This Project
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-credits">
-        🙏 Credits
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-my-modifications">
-        🛠️ My Modifications
-    </a>
-    <span>&nbsp;✦&nbsp;</span>
-    <a href="#-license">
-        🔑 License
-    </a>
-</div>
-
 ## ℹ️ About This Project
 
 This website is a personal portfolio built using Astrolio, an open-source one-page resume/portfolio template designed with Astro.
