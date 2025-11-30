@@ -9,6 +9,7 @@ interface Props {
 const { title } = Astro.props
 
 const { image, summary, url="" } = basicsData as Basics
+const desc= "Intéressé par l’automatisation, j’aime fiabiliser et simplifier les systèmes. Ce site présente mon parcours, mon approche et mes expériences."
 ---
 
 <!doctype html>
@@ -16,7 +17,7 @@ const { image, summary, url="" } = basicsData as Basics
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
-    <meta name="description" content={summary} />
+    <meta name="description" content={desc} />
     <meta name="viewport" content="width=device-width" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -25,7 +26,7 @@ const { image, summary, url="" } = basicsData as Basics
     <meta property="og:url" content={url} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={summary} />
+    <meta property="og:description" content={desc} />
     <meta property="og:image" content="/img-social.png" />
   </head>
   <body>
