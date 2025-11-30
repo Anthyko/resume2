@@ -11,6 +11,7 @@ export const SKILL_ICON_MAP = {
   ruby: "devicon:ruby",
   go: "devicon:go",
   rust: "devicon:rust",
+  php: "devicon:php",
 
   // Web Development
   html: 'devicon:html5',
@@ -22,13 +23,24 @@ export const SKILL_ICON_MAP = {
   svelte: "devicon:svelte",
   next: "devicon:nextjs",
   flutter: "devicon:flutter",
+  express: "devicon:express",
+  symfony: "devicon:symfony",
   astro: "devicon:astro",
+  apache: "devicon:apache",
+  nginx: "devicon:nginx",
 
   // Tools & Ecosystem
   git: 'devicon:git',
   github: 'devicon:github',
   linux: 'devicon:linux',
   docker: 'devicon:docker',
+  k8s: 'devicon:kubernetes',
+  grafana: 'devicon:grafana',
+  ansible: 'devicon:ansible',
+  ubuntu: 'devicon:ubuntu',
+  debian: 'devicon:debian',
+  nixos: 'devicon:nixos',
+  bash: 'devicon:bash',
 
   // Databases
   mysql: 'devicon:mysql',
@@ -69,7 +81,8 @@ const ALIASES = {
   'reactjs': 'react',
   'js': 'javascript',
   'ts': 'typescript',
-  'x' : 'twitter'
+  'x' : 'twitter',
+  'golang': 'go'
 };
 
 export function getIconName(name) {
