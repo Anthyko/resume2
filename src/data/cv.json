@@ -2,7 +2,7 @@
   "basics": {
     "name": "Anthony HENGY",
     "image": "/profile.jpg",
-    "url" = "https://anthonyhengy.fr",
+    "url" : "https://anthonyhengy.fr",
     "location": {
       "city": "Antibes",
       "country": "France"
