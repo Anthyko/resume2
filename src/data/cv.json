@@ -81,7 +81,6 @@
     {"name": "Nixos"},
     {"name":"Bash"},
     {"name":"Python"},
-    {"name":"Golang"},
     {"name":"Php"},
     {"name":"JavaScript"},
     {"name":"Typescript"},
