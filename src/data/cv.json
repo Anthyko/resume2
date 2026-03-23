@@ -83,7 +83,6 @@
     {"name":"Python"},
     {"name":"Php"},
     {"name":"JavaScript"},
-    {"name":"Typescript"},
     {"name":"Node.js"},
     {"name": "Express"},
     {"name": "Symfony"},
