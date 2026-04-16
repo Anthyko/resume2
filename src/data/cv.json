@@ -26,8 +26,44 @@
       { "language": "Anglais", "fluency": "Professionnel" }
     ]
   },
-  "volunteer":[],
-  "projects":[],
+  "volunteer":[
+    {
+      "organization": "Initiative open source",
+      "position": "Contributeur",
+      "url": "https://wiki.nixos.org",
+      "startDate": "2026-04-04",
+      "summary": "Contributeur au wiki NixOS — rédaction et amélioration de documentation technique à destination de la communauté open source"
+    }
+  ],
+  "projects":[
+    {
+      "name": "Nixos-config",
+      "description": "Gestion centralisée de la configuration de plusieurs PC et serveurs sous NixOS, avec approche déclarative, reproductible et versionnée.",
+      "isActive": true,
+      "highlights": [
+        "Standardisation",
+        "Reproductible",
+        "Nix Flake",
+        "Linux",
+        "IAC"
+      ],
+      "github": "https://github.com/Anthyko/nixos-config",
+      "url": "https://github.com/Anthyko/nixos-config"
+    },
+    {
+      "name": "Ovh-redirect-creator",
+      "description": "Développement d’un outil permettant de créer, modifier, consulter et supprimer des redirections e-mail via l’API OVH.",
+      "isActive": true,
+      "highlights": [
+        "Api OVH",
+        "CRUD",
+        "Python"
+      ],
+      "github": "https://github.com/Anthyko/ovh-redirect-creator",
+      "url": "https://github.com/Anthyko/ovh-redirect-creator"
+    }
+  ],
+
   "work": [
     {
       "name": "Squad",
