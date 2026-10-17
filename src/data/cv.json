@@ -13,7 +13,7 @@
       {
         "network": "GitHub",
         "username": "Anthyko",
-        "url": "https://github.com/Anthyko"
+        "url": "https://git.anthonyhengy.fr/anthony"
       },
       {
         "network": "LinkedIn",
@@ -47,8 +47,8 @@
         "Linux",
         "IAC"
       ],
-      "github": "https://github.com/Anthyko/nixos-config",
-      "url": "https://github.com/Anthyko/nixos-config"
+      "github": "https://git.anthonyhengy.fr/anthony/nixos-config",
+      "url": "https://git.anthonyhengy.fr/anthony/nixos-config"
     },
     {
       "name": "Ovh-redirect-creator",
@@ -59,8 +59,8 @@
         "CRUD",
         "Python"
       ],
-      "github": "https://github.com/Anthyko/ovh-redirect-creator",
-      "url": "https://github.com/Anthyko/ovh-redirect-creator"
+      "github": "https://git.anthonyhengy.fr/anthony/ovh-redirect-creator",
+      "url": "https://git.anthonyhengy.fr/anthony/ovh-redirect-creator"
     }
   ],
 
