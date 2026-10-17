@@ -45,7 +45,8 @@
         "Reproductible",
         "Nix Flake",
         "Linux",
-        "IAC"
+        "IAC",
+        "self-hosting"
       ],
       "github": "https://git.anthonyhengy.fr/anthony/nixos-config",
       "url": "https://git.anthonyhengy.fr/anthony/nixos-config"
